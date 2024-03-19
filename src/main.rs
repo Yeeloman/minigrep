@@ -19,9 +19,10 @@ use minigrep::Config;
 
 
 fn main() -> Result<(), std::io::Error> {
-    let args: Vec<String> = env::args().collect();
+    // let args: Vec<String> = env::args().collect();
+    // collect collects the iterator into a vector
     //one way to handle errors
-    let conf: Config = Config::new(&args)
+    let conf: Config = Config::new(env::args())
         .unwrap_or_else(|err| {
             eprintln!("{}", err);
             process::exit(-1);
