@@ -1,0 +1,24 @@
+{
+    "vim.easymotion": false,
+    "vim.enableNeovim": false,
+    "vim.smartRelativeLine": true,
+    "vim.statusBarColorControl": true,
+    "vim.vimrc.enable": false,
+    "vim.vimrc.path": "",
+    "vim.cursorStylePerMode.insert": "underline",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.replace": "underline-thin",
+    "vim.cursorStylePerMode.visual": "block-outline",
+    "vim.cursorStylePerMode.visualblock": "block-outline",
+    "vim.cursorStylePerMode.visualline": "block-outline",
+    "vim.statusBarColors.normal": "",
+    "vim.handleKeys": {
+
+        "<C-d>": true,
+        "<C-s>": false,
+        "<C-z>": false
+    },
+    "vim.useSystemClipboard": true,
+    "vim.visualstar": false,
+    "files.exclude": {}
+}
